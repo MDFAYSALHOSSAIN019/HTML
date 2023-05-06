@@ -1,0 +1,48 @@
+.full {
+    width: 100%;
+    height: 800px;
+    border: 5px solid blue;
+
+}
+.head{
+    width: 100%;
+    height: 100px;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+}
+.body{
+    width: 100%;
+    height: 600px;
+    border: 2px solid blueviolet;
+    background-color: gray
+}
+.foot{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+.head1{
+    width: 25%;
+    height: 100px;
+    background-color: green;
+    float: left;
+    text-align: center;
+}
+.head2{
+    width: 35%;
+    height: 100px;
+    background-color:red;
+    float: left;
+}
+.head3{ 
+    width: 20%;
+    height: 100px;
+    background-color:yellowgreen;
+    float: left;
+}
+.head4{
+    width: 20%;
+    height: 100px;
+    background-color:hotpink;
+    float: right;
+}
