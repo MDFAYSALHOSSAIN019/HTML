@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>home page</title>
+    <link rel="stylesheet" href="../bootstrep/bootstrap.min.css">
     <style>
+        .nav{
 
-        .nav{ 
             color: darkviolet;
             background-color: blanchedalmond;
             width: 100%;
@@ -22,27 +23,140 @@
         }
         nav ul li a:hover{
             color: red;
+            background-color: gold;
+            border-radius: 15PX 15PX 15PX 15PX;
+           
+        
 
         }
-        #home{
-            width: 100%;
-            height: 1000px;
-            background-color: darkkhaki;
-            color: cyan;
-            text-align: center;
-            padding: 120px;
+        nav ul li a{
+            padding: 10PX;
+            text-decoration: none;    
         }
+        #a{
+            width: 25%;
+            height: 1400px;
+            
+
+        }
+        #f{
+            width: 50%;
+            height: 1400px;
+           
+        }
+        #f img{
+            width: 100%;
+            height: 700px;
+            padding: 0;
+            margin: 0;
+        }
+        #k{
+            width: 25%;
+            height: 1400px;
+           
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            margin-top: 30px;
+            margin-left: 60px;
+
+        }
+        #ex{
+            height: 100px;
+            width: 50px;
+            margin-left: 50px;
+            
+        }
+        #ex a{
+        text-decoration: none;
+        color: black;
+
+        
+        }
+        #ex a:hover{
+            background-color:#A8A8A8 ;
+            border-radius: 20px 20px 20px 20px;
+            width: 150px;
+            height: 50px;
+        }
+        #rt{
+            width: 90%;
+            height: 350px;
+            border-color: black;
+            border-style: inset;
+            border-width: 1PX;
+            margin-top: 10px;
+            border-radius: 10px 10px 10px 10px;
+            
+        }
+        .r{
+            margin-left: 50px;
+
+        }
+        .r a{
+            text-decoration: none;
+             color: black;
+
+        }
+        .r a:hover{
+            background-color:#A8A8A8 ;
+            border-radius: 20px 20px 20px 20px;
+            width: 150px;
+            height: 50px;
+        }
+      
     </style>
 </head>
 <body>
     <nav class="nav"><UL >
-        <li><h3><b><a href="home-ber.html">HOME</a></b></h3></li>
+        <li><h3><b><a href="#">HOME</a></b></h3></li>
         <LI><h3><b><a href="form-isdb.html">FORM</a></b></h3></LI>
-        <LI><h3><b><a href="cv.html">CV</a></b></h3></LI>
+        <LI><h3><b><a href="my+cv.html">CV</a></b></h3></LI>
+        <LI><h3><b><a href="personal info.html">PERSONAL INFO</a></b></h3></LI>
         <Li><h3><b> <a href="home-ber.html">BACK</a></b></h3></Li>
     </UL>
-       
-    </nav>
-    <div id="home"><H1><B><I><h1><h1>HOME</h1></h1></I></B></H1></div>
+</nav>
+<div class="contanair">
+    <div class="row">
+        <!-- left side -->
+        <div class="col-md-3" id="a">
+            <img src="twttter.png" alt="">
+            <div id="ex"><h4><strong><a href="#">#Explore</a></strong></h4><br>
+            <h4><strong><a href="#">Setting</a></strong></h4>
+            </div>
+           
+        </div>
+
+
+
+        <!-- center side -->
+        <div class="col-md-6" id="f">
+            <aside><img src="../navagation project/1.jpg" alt=""></aside>
+            <img src="../navagation project/2.jpg" alt="">
+            <img src="../navagation project/3.jpg" alt="">
+        </div>
+
+        <!-- right side -->
+        <div class="col-3" id="k">
+            <div id="rt">
+                <h3><strong>New to Twitter?</strong></h3><br>
+                <P style="margin: 10PX;">Sign up now to get your own personalized timeline!</P>
+                <div class="r">
+                    <h4></h4><a href="#">sing up with Google</a></h4>
+                </div><br>
+                <div class="r">
+                    <a href="#">sing up with Apple</a>
+                </div><br>
+                <div class="r">
+                    <a href="#">Creat a new Account</a>
+                </div> <BR>
+                <P style="margin:10PX;">By signing up, you agree to the Terms of Service and Privacy Policy, </P>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="../javascrept/bootstrap.bundle.min.js"></script>
 </body>
 </html>
