@@ -1,88 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form-IsDB</title>
     <style>
-    *{
-        font-size: 20px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .nav{ 
+        * {
+            margin: 0px;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .nav {
+
             color: darkviolet;
             background-color: blanchedalmond;
             width: 100%;
             height: 100px;
         }
 
-        nav ul li{
-           
+        nav ul li {
+
             padding: 30px;
             list-style-type: none;
             float: left;
         }
-        nav ul li a:hover{
+
+        nav ul li a:hover {
             color: red;
             background-color: gold;
             border-radius: 15PX 15PX 15PX 15PX;
-           
-        
+
+
 
         }
-        nav ul li a{
+
+        nav ul li a {
             padding: 10PX;
             text-decoration: none;
-            
         }
+
+
         #form {
-            margin:0 0 0 2%;
+            margin: 0 0 0 2%;
         }
-        #isdb{
+
+        #isdb {
             margin-top: 4px;
             text-align: left;
             background-color: lightseagreen;
         }
-        #button{
+
+        #button {
             width: 200px;
             height: 80px;
             background-color: aquamarine;
         }
     </style>
 </head>
+
 <body>
-    <nav class="nav"><UL >
-        <li><h3><b><a href="home-ber.html">HOME</a></b></h3></li>
-        <LI><h3><b><a href="form-isdb.html">FORM</a></b></h3></LI>
-        <LI><h3><b><a href="my+cv.html">CV</a></b></h3></LI>
-        <LI><h3><b><a href="personal info.html">PERSONAL INFO</a></b></h3></LI>
-        <Li><h3><b> <a href="home-ber.html">BACK</a></b></h3></Li>
-    </UL>
-       
+    <nav class="nav">
+        <UL>
+            <li>
+                <h3><b><a href="home-ber.html">HOME</a></b></h3>
+            </li>
+            <LI>
+                <h3><b><a href="form-isdb.html">FORM</a></b></h3>
+            </LI>
+            <LI>
+                <h3><b><a href="my+cv.html">CV</a></b></h3>
+            </LI>
+            <LI>
+                <h3><b><a href="personal info.html">PERSONAL INFO</a></b></h3>
+            </LI>
+            <Li>
+                <h3><b> <a href="home-ber.html">BACK</a></b></h3>
+            </Li>
+        </UL>
+
     </nav>
 
     <form action="my+cv.html" id="form">
-    <div id="isdb">
-       <h2>Application Form (IsDB)</h2>
-    </div>
-   <div style="color: limegreen;">
-    Photo uploading instruction:
-    <ul>
-        <li>Uploading instruction file only (jpg.jpeg.png)</li>
-        <li>the photo must be of passport size and be less then one month old</li>
-        <li>Minimum sixe of the image shall be 25KB and maximum size shall be 1024KB</li>
-        <li>the image must show full frontal view.Side way image shall not be accepted</li>
-    </ul>
+        <div id="isdb">
+            <h2>Application Form (IsDB)</h2>
+        </div>
+        <div style="color: limegreen;">
+            Photo uploading instruction:
+            <ul>
+                <li>Uploading instruction file only (jpg.jpeg.png)</li>
+                <li>the photo must be of passport size and be less then one month old</li>
+                <li>Minimum sixe of the image shall be 25KB and maximum size shall be 1024KB</li>
+                <li>the image must show full frontal view.Side way image shall not be accepted</li>
+            </ul>
 
-   </div>
-    <textarea name="" id="" cols="50" rows="8" >         Click here upload your photo </textarea>
-    <pre>
+        </div>
+        <textarea name="" id="" cols="50" rows="8">         Click here upload your photo </textarea>
+        <pre>
 <label for="">Candidate's Name*</label><br>
 <input type="text" required="required" placeholder="Candidate's Name"><br>
 <label for="">Father's Name*</label><br>
 <input type="text" required="required" placeholder="Father's Name"><br>
-<label for="">Date of Birth* (Age must be less then 30 years)</label><br>
+<label for="">Date of Birth* </label><label for="" style="color: red;">(Age must be less then 30 years)</label><br>
 <input type="text" required="required" placeholder="DD/MM/YYYY"><br>
 <LAbel>Gender*</LAbel><input required="required" type="radio" name="select1"><label for=""> Male</label><input required="required" type="radio" name="select1"><label for=""> Female</label><br>
 <label for="">Religion* </label><input required="required" type="radio" ><label for=""> Islam</label><br>
@@ -137,6 +158,7 @@
 
          <button id="button"><H3>SUBMIT</H3></button>
     </pre>
-</form>
+    </form>
 </body>
+
 </html>
