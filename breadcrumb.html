@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <style>
+        .breadcrumb > li + li:before{
+            color: #cccccc;
+            content: "/";
+            padding: 0 5px;
+        }
+        .breadcrumb > li + li a:hover{
+            background-color: aquamarine;
+            
+        }
+    </style>
+</head>
+<body>
+    <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">2023</a></li>
+        <li><a href="#">MAy</a></li>
+        <li><a href="#">15</a></li>
+        <li><a class="active">monday</a></li>
+    </ol>
+    <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
