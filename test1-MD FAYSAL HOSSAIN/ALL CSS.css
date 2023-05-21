@@ -20,7 +20,7 @@ nav{
 
 } 
 nav ul{
-    font-size: 25px;
+    font-size: 15px;
 }
 nav ul li{
     float: left;
@@ -37,4 +37,16 @@ nav ul li a:hover{
     background-color: brown;
     text-transform: initial;
     padding: 15px;
+}
+#left{
+    width: 30%;
+    height: 700px;
+    float: left;
+    background-color: khaki;
+}
+#right{
+    width: 70%;
+    height: 700px;
+  float: right;
+    background-color: khaki;
 }
