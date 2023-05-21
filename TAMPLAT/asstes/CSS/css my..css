@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+/*  */
+
+
+.navber{
+    padding: 1% 10%;
+    background-color: dimgrey;
+}
+.navber-band img{
+    width: 60px;
+    height: auto;
+}

@@ -1,7 +1,28 @@
+/* table */
+table{
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 15PX;
+}
+
+.RED{
+    background-color: red;
+}
+
+.BOT{
+    background-color: cornflowerblue;
+}
+
+
+
+
+
+/* navber */
 nav{
 
 }
-.RED{
+
+.{
     background-color: red;
 }
 
