@@ -56,9 +56,10 @@ background-size:cover ;
   float: left;
 }
 .banner-contents{
-  color: lightgreen;
+  color:white;
+  font-weight: 30;
 }
-#body{
+#card{
  width: 100%;
  height: auto;
 }
