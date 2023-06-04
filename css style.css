@@ -22,3 +22,38 @@
 #sixth{
     background-color: darkorange;
 }
+/* #header{
+    background-image: url(d.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+ }
+ .banner-container{
+    height: 60vh;
+    color: aquamarine;
+
+ } */
+ #header{
+  background-color: lightskyblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ .banner-container{
+    height: 60vh;
+ }
+ #col{
+    width: 40px;
+    height: 20px;
+}
+#but{
+    width: 150px;
+    height: 30px;
+    border-radius:15px 15px ;
+}
+img{
+    im
+    transform: scale(1.1);
+}
